@@ -1,0 +1,49 @@
+# Python cache and tooling
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local Python environments
+.venv/
+venv/
+env/
+ENV/
+
+# Generated training artifacts and model weights
+/runs/
+/saved_models/
+/checkpoints/
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.log
+*.tmp
+*.h5
+*.pkl
+*.pickle
+*.npy
+*.npz
+wandb/
+tensorboard/
+events.out.tfevents.*
+
+# Legacy generated outputs; curated assets and results may be committed separately
+/training_plot.png
+/plot_figure/*_training_log.csv
+/plot_figure/training_comparison_*.png
+
+# Local configuration
+.env
+.env.*
+!.env.example
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
